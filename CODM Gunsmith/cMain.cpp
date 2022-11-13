@@ -4,7 +4,7 @@ wxBEGIN_EVENT_TABLE(cMain, wxFrame)
 EVT_BUTTON(10001, OnButtonClicked)
 wxEND_EVENT_TABLE()
 
-cMain::cMain() : wxFrame(nullptr, wxID_ANY, "Call of Duty - Gunsmith Helper", wxPoint(30, 30), wxSize(800, 600))
+cMain::cMain() : wxFrame(nullptr, wxID_ANY, "Call of Duty - Gunsmith Helper", wxPoint(30, 30), wxSize(1200, 600))
 {
 	int gridSize = nFieldHeight * nFieldWidth;
 	btn = new wxButton * [nFieldHeight * nFieldWidth];
